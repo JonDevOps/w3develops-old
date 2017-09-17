@@ -38,3 +38,5 @@ projects will be projects will be categorized by programming languages and skill
 Fix mobile usability isues found by google (https://imgur.com/ReeWWf0)
 
 Fix bootstrap configuration
+
+Make a page and section of the website exclusively for the autistic kids (teaching them how to learn code, make it mobile and tablet responsive, make little lesson tat have a big impact). Also build a web site then hand out the url to the kids you know first then they would help you to pass it to their friends... also, it's easier to expand and maintain the web site than the mobile app.
