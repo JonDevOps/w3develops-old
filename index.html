@@ -4,8 +4,12 @@
 <!--HEAD STARTS HERE-->
 
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
     <!--Bootstrap link goes here-->
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <!--End Bootstrap-->
 
 
@@ -16,8 +20,7 @@
     <link rel=" shortcut icon" type="image/x-icon" href="file:///C:/Users/jonde/Desktop/w3develops/favicon.ico">
 
  <!--End favicon-->
-
-    <meta charset="utf-8">
+    
     <title>W3Develops</title>
 
 
@@ -27,12 +30,72 @@
   <!--BODY STARTS HERE-->
 
   <body>
-
+<!--NavBar-->
+       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#">   <img class="image-header" src="escr4.PNG" alt="eat, sleep, code, repeat" >
+  </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">W3Develops <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">SignUp</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Tutorials
+          </a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Practice</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        
+        </ul>
+        <form class="form-inline mt-2 mt-md-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+<!--End of NavBar-->
 <div id="Container">
-
+/*
   <div id="Header">
     <img class="image-header" src="escr4.PNG" alt="eat, sleep, code, repeat" >
-  </div>
+  </div> 
 
   <div id="Menubar">
     <ul>
@@ -101,6 +164,7 @@
         </li>
     </ul>
   </div>
+  */
 
   <div id="Sidebar">
     <ul>
@@ -120,10 +184,12 @@
   </ul>
   </div>
 
-  <div id="Mainbody">
+  <div class="container">
+    <div class="row">
+      <div class="col-6 col-md-4 col-xs-6">
     <h1 class="text-center"> Connect with developers and the world around you on W3Develops</h1>
-
-
+       </div>
+   <div class="col-md-8">
   <h2 class="text-center">
 What is W3Develops?
    </h2>
@@ -137,7 +203,8 @@ What is W3Develops?
 </li>
 
 </ul>
-
+</div>
+      <div class="col-xs-6">
 <h2 class="text-center">
    Why should you join W3Develops?
  </h2 >
@@ -152,7 +219,8 @@ What is W3Develops?
       You will get free access to documentation, references, and tools for the latest technologies for quick quick access when you need to look up how to use a technologies code.
    </li>
 </ul>
-
+</div>
+      <div class="col-6">
 <h2 class="text-center">
    How to get started!
  </h2 >
@@ -161,12 +229,18 @@ What is W3Develops?
   <li>Build something. To make this a strong website we need strong members, and we will only ever be as good as the people around us, so take a moment and reflect and know you can do better and you will do better, so long as you try. Climbing a mountian starts with the first step. "Practice makes permanent" </li>
   <li>Invite your friends to contribute and let them know your building the best social networking eveloper site on the world wide web.</li>
 </ul>
-
+        </div>
 </div>
+    <!--End of Container-->
   <div id="Footer">
     <p id="footparg"><a href="#" class="white-text">Home ||</a>  <a href="#" class="white-text">About ||</a>  <a href="#" class="white-text">Contact ||</a>  <a href="#" class="white-text">Contribute ||</a>  <a href="#" class="white-text">Donate</a></p>
 
     <p id="copy">&copy;Designed By W3Develops</p> </div>
 </div>
+    <!--Bootstrap JS Files-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <!--End-->
   </body>
 </html>
