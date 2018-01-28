@@ -40,3 +40,17 @@ Fix mobile usability isues found by google (https://imgur.com/ReeWWf0)
 Fix bootstrap configuration
 
 Make a page and section of the website exclusively for the autistic kids (teaching them how to learn code, make it mobile and tablet responsive, make little lesson tat have a big impact). Also build a web site then hand out the url to the kids you know first then they would help you to pass it to their friends... also, it's easier to expand and maintain the web site than the mobile app.
+
+List ofThe Team's Members
+-Jonathan Jackson - Founder and CEO of w3develops
+
+
+-Sirani McNeil - co-founder and software engineer
+
+-Carlos Nah - Co-Founder/Team Manager and Web Developer
+
+-N.Rupesh Goud- Team member/Full Stack web developer
+
+-Adim Vicky - Team Member and Front End Developer
+
+If you are interested in being a part of this team Please contact me cnah27@gmail.com
